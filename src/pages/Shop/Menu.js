@@ -12,63 +12,38 @@ export function Menu(props) {
 
     return (
         <React.Fragment>
-            <div className="row" style={{backgroundColor:"#eee", paddingTop:"2rem", borderLeft:"1px solid #cccccc"}}>
-              <div className="col-sm-5" style={{marginLeft:"5rem"}}>
-                
+
+            <div className="row px-5 px-md-2 px-lg-3 px-xl-4 px-xxl-5" style={{backgroundColor:"#eee", paddingTop:"2rem"}}>
+
                 {theShop.MenuTypes.map((types, index)=>{
                   return (
                     <div key={index}>
-                      <h1 style={{marginBottom:"1rem"}}>{types}</h1>
-                      {theShop.Menu.filter((items)=>items.Type === types).map((data, index)=>{
-                        if ( index < Math.ceil(theShop.Menu.filter((items)=>items.Type === types).length/2) )
-                        return (
-                          <div key={index} className="card" style={{marginBottom:"1rem", marginLeft:"2rem"}}>
-                            <div className="card-body">
-                              <img style={{borderRadius:"1rem", width:"25%", maxHeight:"120px", float:"left", marginTop:"0.5rem"}} src={data.Image} alt={`${data.Type} image`} />
-                              <div style={{marginLeft:"10.5rem"}}>
-                                <h5 className="card-title">{data.Name}</h5>
-                                <p className="card-text" style={{color:"#888"}}>{data.Description}</p>
-                                <p style={{margin:"0", padding:"0", position:"absolute", bottom:"1.25rem", color:"#7CFC00"}}>{separateComma(data.Price)} $</p>
-                                <FontAwesomeIcon onClick={()=>{addToCart(data.Name)}} className="add-to-cart-btn" icon={plusIcon} style={{fontSize:"1.5rem", position:"absolute", bottom:"0.5rem", right:"1rem", color:"#7CFC00"}} />
+                      <h1 className="mb-4 mt-5">{types}</h1>
+                      <div className="row">
+                        {theShop.Menu.filter((items)=>items.Type === types).map((data, index)=>{
+                          return (
+                            <div className="col-12 col-md-6">
+                              <div key={index} className="card col-12 mb-3">
+                                <div className="" style={{height:"120px"}}>
+                                  <figure className="menu-images rounded-3 mt-2 ms-3 me-3">
+                                    <img src={data.Image} alt={`${data.Type} image`} />
+                                  </figure>
+                                  <div>
+                                    <h5 className="card-title mt-3 warp-hide-text" style={{fontSize:"1.2rem"}}>{data.Name}</h5>
+                                    <p className="card-text warp-hide-text" style={{color:"#888", fontSize:"0.95rem"}}>{data.Description}</p>
+                                    <p style={{color:"#7CFC00"}}>{separateComma(data.Price)} $</p>
+                                    <FontAwesomeIcon onClick={()=>{addToCart(data.Name)}} className="add-to-cart-btn" icon={plusIcon} />
+                                  </div>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        )
-                      })}
-                    </div>
-                  )
-                })}
-              
-              </div>
-              <div className="col-sm-5" style={{marginTop:"4rem"}}>
-                
-              {theShop.MenuTypes.map((types, index)=>{
-                  return (
-                    <div key={index}>
-                      {theShop.Menu.filter((items)=>items.Type === types).map((data, index)=>{
-
-                        const shopMenuCount = theShop.Menu.filter((items)=>items.Type === types).length;
-
-                        if ( index >= Math.ceil(shopMenuCount/2) )
-                        return (
-                          <div key={index} className="card" style={{marginBottom:`${ shopMenuCount === index+1 ? "5rem" : "1rem"}`, marginLeft:"2rem"}}>
-                            <div className="card-body">
-                              <img style={{borderRadius:"1rem", width:"25%", maxHeight:"120px", float:"left", marginTop:"0.5rem"}} src={data.Image} alt={`${data.Type} image`} />
-                              <div style={{marginLeft:"10.5rem"}}>
-                                <h5 className="card-title">{data.Name}</h5>
-                                <p className="card-text" style={{color:"#888"}}>{data.Description}</p>
-                                <p style={{margin:"0", padding:"0", position:"absolute", bottom:"1.25rem", color:"#7CFC00"}}>{separateComma(data.Price)} $</p>
-                                <FontAwesomeIcon onClick={()=>{addToCart(data.Name)}} className="add-to-cart-btn" icon={plusIcon} style={{fontSize:"1.5rem", position:"absolute", bottom:"0.5rem", right:"1rem", color:"#7CFC00"}} />
-                              </div>
-                            </div>
-                          </div>
-                        )
-                      })}
+                          )
+                        })}
+                      </div>
                     </div>
                   )
                 })}
 
-              </div>
             </div>
         </React.Fragment>
     )

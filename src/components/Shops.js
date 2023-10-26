@@ -104,7 +104,6 @@ export const shops = [
         MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
         Menu : [
-            {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
             {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
             {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
             {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
@@ -117,7 +116,6 @@ export const shops = [
             {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
             {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
             {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-            {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
 
             {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
             {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},

@@ -15,7 +15,7 @@ export function Nav() {
     }
 
     return (
-        <nav className="navbar navbar-expand-md bg-white fixed-top border-bottom py-3">
+        <nav className="navbar navbar-expand-md bg-white fixed-top border-bottom py-2 py-md-3">
 
             <div className="container-fluid d-flex justify-content-between">
 
