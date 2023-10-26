@@ -18,7 +18,7 @@ function App() {
         <Router>
           <Nav />
           <Routes>
-            <Route path='/' element={<Main />} />
+            <Route path='/Online_Shop_V.1.0.0' element={<Main />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/shop/:name' element={<Shop />} />
             <Route path='/search/:resultof' element={<Search />} />
