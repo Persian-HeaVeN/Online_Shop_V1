@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Online_Shop_V.1.0.0/static/css/main.6babefda.css",
-    "main.js": "/Online_Shop_V.1.0.0/static/js/main.c55e9af5.js",
+    "main.js": "/Online_Shop_V.1.0.0/static/js/main.278bb9bf.js",
     "static/media/pepsi.png": "/Online_Shop_V.1.0.0/static/media/pepsi.5309f49126c9f18d0e07.png",
     "static/media/chili_image_page.jpg": "/Online_Shop_V.1.0.0/static/media/chili_image_page.e4003a468bed5819205d.jpg",
     "static/media/felfeli_image_page.jpg": "/Online_Shop_V.1.0.0/static/media/felfeli_image_page.43ed5cf1604ba246f412.jpg",
@@ -30,10 +30,10 @@
     "static/media/Burger_Classic.jpg": "/Online_Shop_V.1.0.0/static/media/Burger_Classic.39e25eab5af65979a1ba.jpg",
     "index.html": "/Online_Shop_V.1.0.0/index.html",
     "main.6babefda.css.map": "/Online_Shop_V.1.0.0/static/css/main.6babefda.css.map",
-    "main.c55e9af5.js.map": "/Online_Shop_V.1.0.0/static/js/main.c55e9af5.js.map"
+    "main.278bb9bf.js.map": "/Online_Shop_V.1.0.0/static/js/main.278bb9bf.js.map"
   },
   "entrypoints": [
     "static/css/main.6babefda.css",
-    "static/js/main.c55e9af5.js"
+    "static/js/main.278bb9bf.js"
   ]
 }
