@@ -11,7 +11,7 @@ export function Search() {
     const {resultof} = useParams();
     return (
         <React.Fragment>
-            <div style={{marginLeft:"5rem", marginTop:"5rem"}}>
+            <div style={{marginTop:"5rem", marginLeft:"3rem", marginRight:"3rem"}}>
                 <h1>Search result</h1>
                 <OwlCarousel className="owl-theme" {...crouselOptions}>
                     {shops.map((data, index)=> {

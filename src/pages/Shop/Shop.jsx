@@ -29,18 +29,18 @@ export function Shop() {
                     <div className="shop-menu-top-image col-12 mb-2" style={{backgroundImage:`url(${nowShop.Images.Main})`}}>
                         <div className="cover-color"></div>
                         <figure className="bottom-left rounded-5 bg-white">
-                            <img className="rounded-5" src={nowShop.Images.Icon} alt="shop icon" style={{width:"6.5rem", padding:"0.1rem"}} />
+                            <img className="rounded-5" src={nowShop.Images.Icon} alt="shop icon" style={{width:"6rem", padding:"0.1rem"}} />
                         </figure>
                         <div className="top-right">
-                            <button onClick={()=>{navigateTo("/")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
+                            <button onClick={()=>{navigateTo("/Online_Shop_V.1.0.0")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
                         </div>
                     </div>
 
-                    <div className="col-12 d-flex pb-2" style={{paddingLeft:"3.5rem", borderBottom:"1px #ccc solid"}}>
+                    <div className="col-12 d-flex pb-2" style={{paddingLeft:"2rem", borderBottom:"1px #ccc solid"}}>
                         
                         <div className="col-6">
                             <h2 className="mb-3">{nowShop.Name} fast food</h2>
-                            <div className="ps-4">
+                            <div className="">
                                 <FontAwesomeIcon style={{fontSize:"1.4rem", color:"#7CFC00"}} icon={locationIcon} />
                                 <p className="d-inline ps-2" style={{fontSize:"1.2rem"}}>{nowShop.Location}</p>
                             </div>
@@ -53,7 +53,7 @@ export function Shop() {
                                     <p className="d-inline ps-2" style={{fontSize:"1.5rem"}}>{nowShop.Stars}</p>
                                 </div>
                                 
-                                <button className="btn btn-outline-success ms-3 d-block mt-2" style={{borderColor:"#7CFC00", height:"1rem", marginBottom:"0.5rem", paddingBottom:"1.9rem", color:"black"}}>See comments</button>
+                                <button className="btn btn-outline-success ms-3 d-block mt-2" style={{borderColor:"#7CFC00", marginBottom:"0.5rem", color:"black"}}>See comments</button>
                             </div>
                         </div>
                         
@@ -68,18 +68,18 @@ export function Shop() {
 
                     <div className="row">
 
-                        <div className="col-6 d-inline-flex justify-content-end pe-4">
+                        <div className="col-6 d-inline-flex justify-content-end pe-4 ps-4">
                             <FontAwesomeIcon style={{color:"#7CFC00", fontSize:"2rem"}} icon={clockIcon} />
                             <div className="ps-3">
-                                <h4>{nowShop.Time[0]} - {nowShop.Time[1]} min</h4>
-                                <p className="text-center">Average delivery time</p>
+                                <h4 style={{fontSize:"4.7vw"}}>{nowShop.Time[0]} - {nowShop.Time[1]} min</h4>
+                                <p className="text-center" >Average delivery time</p>
                             </div>
                         </div>
 
                         <div className="col-6 d-inline-flex justify-content-start ps-4 mb-2" style={{borderLeft:"1px #ccc solid"}}>
                             <FontAwesomeIcon style={{color:"#7CFC00", fontSize:"2rem"}} icon={nowShop.Shipby === "Car" ? carIcon : motorcycleIcon} />
                             <div className="ps-3">
-                                <h4>{nowShop.Shipby}</h4>
+                                <h4 style={{fontSize:"4.7vw"}}>{nowShop.Shipby}</h4>
                                 <p className="text-center">Shipping method</p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ export function Shop() {
                             <img className="rounded-5" src={nowShop.Images.Icon} alt="shop icon" style={{width:"8rem", padding:"0.1rem"}} />
                         </figure>
                         <div className="top-right">
-                            <button onClick={()=>{navigateTo("/")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
+                            <button onClick={()=>{navigateTo("/Online_Shop_V.1.0.0")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
                         </div>
                     </div>
 
@@ -130,7 +130,7 @@ export function Shop() {
                         <div className="mt-2 ps-4">
                             <FontAwesomeIcon style={{fontSize:"1.6rem", color:"#7CFC00"}} icon={starIcon} />
                             <p className="d-inline ps-3" style={{fontSize:"1.5rem"}}>{nowShop.Stars}</p>
-                            <button className="btn btn-outline-success ms-3" style={{borderColor:"#7CFC00", height:"2rem", marginBottom:"0.5rem", paddingBottom:"1.9rem", color:"black"}}>See comments</button>
+                            <button className="btn btn-outline-success ms-3" style={{borderColor:"#7CFC00", marginBottom:"0.5rem", color:"black"}}>See comments</button>
                         </div>
                     </div>
 

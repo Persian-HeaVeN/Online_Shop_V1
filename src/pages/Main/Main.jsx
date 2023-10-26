@@ -14,10 +14,12 @@ export const crouselOptions = {
         0: {
             items: 1,
             dots: false,
+            nav:true,
         },
         500: {
             items: 2,
             dots: false,
+            nav:true,
         },
         700: {
             items: 3,
@@ -39,7 +41,7 @@ export function Main() {
 
     return (
         <React.Fragment>
-            <div style={{marginTop:"6rem", marginLeft:"5rem", marginRight:"5rem"}}>
+            <div style={{marginTop:"6rem", marginLeft:"3rem", marginRight:"3rem"}}>
                 <h1 className="mb-3">New to shapaz</h1>
                 <OwlCarousel className="owl-theme" {...crouselOptions}>
                     {shops.map((data, index)=> {
@@ -53,7 +55,7 @@ export function Main() {
                     } )}
                 </OwlCarousel>
             </div>
-            <div style={{marginLeft:"5rem", marginTop:"5rem"}}>
+            <div style={{marginTop:"5rem", marginLeft:"3rem", marginRight:"3rem"}}>
                 <h1>Popular in shapaz</h1>
                 <OwlCarousel className="owl-theme" {...crouselOptions}>
                     {shops.map((data, index)=> {
@@ -67,7 +69,7 @@ export function Main() {
                     } )}
                 </OwlCarousel>
             </div>
-            <div style={{marginLeft:"5rem", marginTop:"5rem"}}>
+            <div style={{marginTop:"5rem", marginLeft:"3rem", marginRight:"3rem"}}>
                 <h1>All in shapaz</h1>
                 <OwlCarousel className="owl-theme" {...crouselOptions}>
                     {shops.map((data, index)=> {

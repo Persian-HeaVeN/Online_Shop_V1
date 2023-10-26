@@ -17,7 +17,7 @@
 
 .bottom-left {
     position: absolute;
-    top: 145px;
+    top: 155px;
     left: 25px;
     overflow: hidden;
 }
@@ -135,22 +135,16 @@
 }
 
 .menu-images {
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
     float: left;
     overflow: hidden;
     position: relative;
 }
 
-
-@media (min-width: 650px) {
-    .menu-images {
-        width: 100px;
-        height: 100px;
-    }
+.menu-items {
+    height: 90px;
 }
-
-
 
 @media (min-width: 1200px) {
     .shop-content {
@@ -177,5 +171,12 @@
     }
     .top-right {
         top: 100px;
+    }
+    .menu-images {
+        width: 100px;
+        height: 100px;
+    }
+    .menu-items {
+        height: 120px;
     }
 }
