@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Online_Shop_V.1.0.0/static/css/main.6babefda.css",
-    "main.js": "/Online_Shop_V.1.0.0/static/js/main.278bb9bf.js",
+    "main.css": "/Online_Shop_V.1.0.0/static/css/main.f8ac1836.css",
+    "main.js": "/Online_Shop_V.1.0.0/static/js/main.c09c8452.js",
     "static/media/pepsi.png": "/Online_Shop_V.1.0.0/static/media/pepsi.5309f49126c9f18d0e07.png",
     "static/media/chili_image_page.jpg": "/Online_Shop_V.1.0.0/static/media/chili_image_page.e4003a468bed5819205d.jpg",
     "static/media/felfeli_image_page.jpg": "/Online_Shop_V.1.0.0/static/media/felfeli_image_page.43ed5cf1604ba246f412.jpg",
@@ -29,11 +29,11 @@
     "static/media/cart_empty.png": "/Online_Shop_V.1.0.0/static/media/cart_empty.725efe090e83ce846d68.png",
     "static/media/Burger_Classic.jpg": "/Online_Shop_V.1.0.0/static/media/Burger_Classic.39e25eab5af65979a1ba.jpg",
     "index.html": "/Online_Shop_V.1.0.0/index.html",
-    "main.6babefda.css.map": "/Online_Shop_V.1.0.0/static/css/main.6babefda.css.map",
-    "main.278bb9bf.js.map": "/Online_Shop_V.1.0.0/static/js/main.278bb9bf.js.map"
+    "main.f8ac1836.css.map": "/Online_Shop_V.1.0.0/static/css/main.f8ac1836.css.map",
+    "main.c09c8452.js.map": "/Online_Shop_V.1.0.0/static/js/main.c09c8452.js.map"
   },
   "entrypoints": [
-    "static/css/main.6babefda.css",
-    "static/js/main.278bb9bf.js"
+    "static/css/main.f8ac1836.css",
+    "static/js/main.c09c8452.js"
   ]
 }
