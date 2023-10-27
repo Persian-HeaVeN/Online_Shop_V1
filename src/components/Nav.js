@@ -35,14 +35,18 @@ export function Nav() {
                   <span className="navbar-toggler-icon"></span>
                 </button>
 
+                <div className="collapse navbar-collapse mx-5 mx-md-0 me-md-1 mt-3 mt-md-0" id="navbarSupportedContent">
+                    <div className='search-form'>
+                        <form onSubmit={searchSubmitHandler}>
+                            <input style={{borderColor:"#7CFC00", display:"inline"}} id="search-input" className="form-control w-75 mt-1" type="search" placeholder="Search" aria-label="Search"/>
+                            <button style={{borderColor:"#7CFC00", width:"100%"}} className="btn btn-outline-success px-1 w-25 mb-1" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
             </div>
 
-            <div className="collapse navbar-collapse mx-5 mx-md-0 me-md-1 mt-3 mt-md-0" id="navbarSupportedContent">
-                <form onSubmit={searchSubmitHandler}>
-                <input style={{borderColor:"#7CFC00", display:"inline"}} id="search-input" className="form-control w-75 mt-1" type="search" placeholder="Search" aria-label="Search"/>
-                <button style={{borderColor:"#7CFC00", width:"100%"}} className="btn btn-outline-success px-1 w-25 mb-1" type="submit">Search</button>
-                </form>
-            </div>
+
 
         </nav>
     )

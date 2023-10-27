@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.card {
+    cursor: pointer;
+}
+
 .div-card-img-top {
     position: relative;
     text-align: center;
@@ -99,6 +103,16 @@
     border-top: 1px solid #cccccc;
 }
 
+.navbar-brand {
+    padding-left: 1em;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
 
 .add-to-cart-btn {
     font-size: 1.5rem;
@@ -153,6 +167,9 @@
     .bottom-left {
         left: 350px;
     }
+    .search-form {
+        justify-content: end;
+    }
 }
 
 
@@ -178,5 +195,8 @@
     }
     .menu-items {
         height: 120px;
+    }
+    .search-form {
+        justify-content: end;
     }
 }
