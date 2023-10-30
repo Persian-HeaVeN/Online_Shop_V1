@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Online_Shop_V.1.0.0/static/css/main.f8ac1836.css",
-    "main.js": "/Online_Shop_V.1.0.0/static/js/main.c09c8452.js",
+    "main.css": "/Online_Shop_V.1.0.0/static/css/main.036c1fc4.css",
+    "main.js": "/Online_Shop_V.1.0.0/static/js/main.567140e0.js",
     "static/media/pepsi.png": "/Online_Shop_V.1.0.0/static/media/pepsi.5309f49126c9f18d0e07.png",
     "static/media/chili_image_page.jpg": "/Online_Shop_V.1.0.0/static/media/chili_image_page.e4003a468bed5819205d.jpg",
     "static/media/felfeli_image_page.jpg": "/Online_Shop_V.1.0.0/static/media/felfeli_image_page.43ed5cf1604ba246f412.jpg",
@@ -17,6 +17,7 @@
     "static/media/Friedfillet.jpg": "/Online_Shop_V.1.0.0/static/media/Friedfillet.e95abd673822d73af67f.jpg",
     "static/media/cocaColaFamily.png": "/Online_Shop_V.1.0.0/static/media/cocaColaFamily.3627c47a01fe0e697a61.png",
     "static/media/Pizza_NewMexico.jpg": "/Online_Shop_V.1.0.0/static/media/Pizza_NewMexico.17cfa5ec98cba06888d4.jpg",
+    "static/media/logo.png": "/Online_Shop_V.1.0.0/static/media/logo.292e84d792561047bb4b.png",
     "static/media/Pizza_Roastbeef.jpg": "/Online_Shop_V.1.0.0/static/media/Pizza_Roastbeef.a6bd79debec65f81d653.jpg",
     "static/media/Pizza_Meatmushroom.jpg": "/Online_Shop_V.1.0.0/static/media/Pizza_Meatmushroom.c18d9045c7bde3cb57d9.jpg",
     "static/media/FriedChicken.jpg": "/Online_Shop_V.1.0.0/static/media/FriedChicken.49869b8cf27adc3aeea9.jpg",
@@ -29,11 +30,11 @@
     "static/media/cart_empty.png": "/Online_Shop_V.1.0.0/static/media/cart_empty.725efe090e83ce846d68.png",
     "static/media/Burger_Classic.jpg": "/Online_Shop_V.1.0.0/static/media/Burger_Classic.39e25eab5af65979a1ba.jpg",
     "index.html": "/Online_Shop_V.1.0.0/index.html",
-    "main.f8ac1836.css.map": "/Online_Shop_V.1.0.0/static/css/main.f8ac1836.css.map",
-    "main.c09c8452.js.map": "/Online_Shop_V.1.0.0/static/js/main.c09c8452.js.map"
+    "main.036c1fc4.css.map": "/Online_Shop_V.1.0.0/static/css/main.036c1fc4.css.map",
+    "main.567140e0.js.map": "/Online_Shop_V.1.0.0/static/js/main.567140e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8ac1836.css",
-    "static/js/main.c09c8452.js"
+    "static/css/main.036c1fc4.css",
+    "static/js/main.567140e0.js"
   ]
 }
