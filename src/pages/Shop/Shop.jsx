@@ -1,26 +1,69 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { shops } from "../../components/Shops";
 import cartEmpty from "../../assets/cart_empty.png"
-import React from "react";
+import React, { useContext, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock as clockIcon, faStar as starIcon } from "@fortawesome/free-regular-svg-icons";
 import { faLocationDot as locationIcon, faMotorcycle as motorcycleIcon, faCar as carIcon } from "@fortawesome/free-solid-svg-icons";
-import {Container, Row, Tab, Tabs} from "react-bootstrap"
+import {Container, Row, Tab, Tabs, Offcanvas} from "react-bootstrap"
 import { Menu } from "./Menu";
+import { ShopContext } from "../../contexts/shopContext";
+import { Cart } from "../Shop/Cart";
+import { CenteredModal } from "../../components/CenterModal";
+import { hideModal } from "../../reducers/SliceReducers";
+import { toggleCart, hideCart } from "../../reducers/SliceReducers";
+import { useDispatch, useSelector } from "react-redux"
 
+const sideCartOptions = {
+    scroll: false,
+    backdrop: false,
+}
 
 export function Shop() {
+
+    const dispatch = useDispatch();
+
+    const modalSelector = useSelector((state)=> state.modal);
+
+    const cartSelector = useSelector((state)=> state.cart);
+
     const {name} = useParams();
 
     const nowShop = shops.filter((data) => data.Name === name)[0]
 
+    const {cartItems, addToCart, removeFromCart, shopName} = useContext(ShopContext);
+
     let navigateTo = useNavigate();
+
+    window.onresize = function onWindowResize() {
+        if (window.innerWidth < 1200){
+            dispatch(hideCart())
+        }
+    }
 
     return (
         <React.Fragment>
+
+        <CenteredModal
+            show={modalSelector.show}
+            onHide={() => dispatch(hideModal())}
+        />
+
+                <Offcanvas className="cart-canvas" style={{width:"325px"}} show={cartSelector.cartShow} onHide={() => dispatch(hideCart())} {...sideCartOptions} >
+                    { cartItems.length === 0 && <div>
+                        <button onClick={()=>{dispatch(hideCart())}} style={{float:"right", paddingTop:"30px", paddingRight:"20px"}} type="button" class="btn-close" aria-label="Close"></button>
+                        <img src={cartEmpty} style={{maxWidth:"300px", marginTop:"20px"}} />
+                        <span style={{color:"#cccccc", textAlign:"center", display:"block", fontSize:"1.2rem"}}>Cart is empty</span>
+                    </div> }
+                    {cartItems.length > 0 && <Cart close={true} shop={shopName} datas={{items:cartItems, shopName: shopName}} /> }
+                </Offcanvas>
+
             <div className="menu-sidenav d-none d-xl-block" style={{borderRight:"1px solid #cccccc"}}>
-                <img src={cartEmpty} style={{maxWidth:"300px", marginTop:"60px"}} />
-                <span style={{color:"#cccccc", textAlign:"center", display:"block", fontSize:"1.2rem"}}>Cart is empty</span>
+                { cartItems.length === 0 && <div>
+                    <img src={cartEmpty} style={{maxWidth:"300px", marginTop:"60px"}} />
+                    <span style={{color:"#cccccc", textAlign:"center", display:"block", fontSize:"1.2rem"}}>Cart is empty</span>
+                </div> }
+                {cartItems.length > 0 && <Cart shop={shopName} datas={{items:cartItems, shopName: shopName}} /> }
             </div>
 
             <div className="shop-content d-md-none">

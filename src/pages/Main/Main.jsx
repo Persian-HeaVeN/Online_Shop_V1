@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import { shops } from "../../components/Shops";
 import { Shop } from "./Shop";
 import OwlCarousel from 'react-owl-carousel';
+import { Cart } from "../Shop/Cart";
+import { Offcanvas } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleCart, hideCart } from "../../reducers/SliceReducers";
+import cartEmpty from "../../assets/cart_empty.png"
+import { ShopContext } from "../../contexts/shopContext";
+
+const sideCartOptions = {
+    scroll: false,
+    backdrop: false,
+}
 
 export const crouselOptions = {
     margin: 10,
@@ -39,8 +50,24 @@ export const crouselOptions = {
 
 export function Main() {
 
+    const dispatch = useDispatch();
+
+    const cartSelector = useSelector((state)=> state.cart);
+
+    const {cartItems, addToCart, removeFromCart, shopName} = useContext(ShopContext);
+
     return (
         <React.Fragment>
+
+                <Offcanvas className="cart-canvas" style={{width:"325px"}} show={cartSelector.cartShow} onHide={() => dispatch(hideCart())} {...sideCartOptions} >
+                    { cartItems.length === 0 && <div>
+                        <button onClick={()=>{dispatch(hideCart())}} style={{float:"right", paddingTop:"30px", paddingRight:"20px"}} type="button" class="btn-close" aria-label="Close"></button>
+                        <img src={cartEmpty} style={{maxWidth:"300px", marginTop:"20px"}} />
+                        <span style={{color:"#cccccc", textAlign:"center", display:"block", fontSize:"1.2rem"}}>Cart is empty</span>
+                    </div> }
+                    {cartItems.length > 0 && <Cart close={true} shop={shopName} datas={{items:cartItems, shopName: shopName}} /> }
+                </Offcanvas>
+
             <div style={{marginTop:"6rem", marginLeft:"3rem", marginRight:"3rem"}}>
                 <h1 className="mb-3">New to shapaz</h1>
                 <OwlCarousel className="owl-theme" {...crouselOptions}>

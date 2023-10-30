@@ -6,25 +6,27 @@ import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { Nav } from './components/Nav';
 import { Main } from './pages/Main/Main';
-import { Cart } from './pages/Cart/Cart';
 import { Shop } from './pages/Shop/Shop';
 import { Search } from './pages/Search/Search';
 import { ShopContextProvider } from './contexts/shopContext';
+import { Provider } from 'react-redux';
+import { store } from './reducers/SliceReducers';
 
 function App() {
   return (
     <div className="App">
-      <ShopContextProvider>
-        <Router>
-          <Nav />
-          <Routes>
-            <Route path='/Online_Shop_V.1.0.0' element={<Main />} />
-            <Route path='/cart' element={<Cart />} />
-            <Route path='/shop/:name' element={<Shop />} />
-            <Route path='/search/:resultof' element={<Search />} />
-          </Routes>
-        </Router>
-      </ShopContextProvider>
+      <Provider store={store}>
+        <ShopContextProvider>
+          <Router>
+            <Nav />
+            <Routes>
+              <Route path='/Online_Shop_V.1.0.0' element={<Main />} />
+              <Route path='/shop/:name' element={<Shop />} />
+              <Route path='/search/:resultof' element={<Search />} />
+            </Routes>
+          </Router>
+        </ShopContextProvider>
+      </Provider>
     </div>
   );
 }

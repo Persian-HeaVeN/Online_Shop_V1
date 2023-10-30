@@ -57,7 +57,6 @@ export const shops = [
             MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
         Menu : [
-            {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
             {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
             {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
             {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
@@ -65,15 +64,14 @@ export const shops = [
             {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
             {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-            {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+            {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
             
             {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
             {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
             {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-            {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
 
             {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-            {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
+            {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
             {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
             {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
         ],
@@ -111,14 +109,14 @@ export const shops = [
             {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
             {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-            {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+            {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
             
             {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
             {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
             {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
 
             {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-            {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
+            {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
             {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
             {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
         ],
@@ -149,7 +147,6 @@ export const shops = [
         MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
         Menu : [
-            {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
             {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
             {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
             {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
@@ -157,15 +154,14 @@ export const shops = [
             {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
             {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-            {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+            {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
             
             {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
             {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
             {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-            {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
 
             {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-            {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
+            {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
             {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
             {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
         ],
@@ -196,7 +192,6 @@ export const shops = [
         MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
         Menu : [
-            {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
             {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
             {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
             {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
@@ -204,15 +199,14 @@ export const shops = [
             {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
             {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-            {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+            {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
             
             {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
             {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
             {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-            {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
 
             {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-            {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
+            {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
             {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
             {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
         ],
@@ -242,27 +236,25 @@ export const shops = [
 
         MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
-    Menu : [
-        {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
-        {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
-        {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
-        {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
-        {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
-        {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
+        Menu : [
+                {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
+                {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
+                {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
+                {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
+                {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
-        
-        {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
-        {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
-        {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-        {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
+                {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
+                {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+                
+                {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
+                {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
+                {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
 
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
-        {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
-        {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
-    ],
+                {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
+                {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
+                {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
+                {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
+            ],
 
 },
 
@@ -290,26 +282,24 @@ export const shops = [
     MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
     Menu : [
-        {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
-        {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
-        {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
-        {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
-        {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
-        {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
+            {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
+            {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
+            {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
+            {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
+            {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
-        
-        {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
-        {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
-        {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-        {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
+            {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
+            {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+            
+            {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
+            {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
+            {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
 
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
-        {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
-        {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
-    ],
+            {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
+            {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
+            {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
+            {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
+        ],
 
 },
 
@@ -337,26 +327,24 @@ export const shops = [
     MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
     Menu : [
-        {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
-        {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
-        {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
-        {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
-        {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
-        {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
+            {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
+            {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
+            {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
+            {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
+            {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
-        
-        {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
-        {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
-        {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-        {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
+            {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
+            {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+            
+            {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
+            {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
+            {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
 
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
-        {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
-        {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
-    ],
+            {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
+            {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
+            {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
+            {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
+        ],
 
 },
 
@@ -384,26 +372,24 @@ export const shops = [
     MenuTypes : ["Pizza", "Burger", "Fired", "Drink"],
 
     Menu : [
-        {Type: "Pizza", Name: "Pizza Kraków", Description: "Cheese krakoff sausage, meat and chicken ham", Image:pizzaKrakow, Price: 210000},
-        {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
-        {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
-        {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
-        {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
-        {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
+            {Type: "Pizza", Name: "Pizza Roastbeef", Description: "Sliced ​​beef, mushroom, bell pepper", Image:pizzaRoastbeef, Price: 200000},
+            {Type: "Pizza", Name: "Pizza New mexico", Description: "Roast beef, pepperoni, ham, cheese, hot pepper", Image:pizzaNewmexico, Price: 195000},
+            {Type: "Pizza", Name: "Pizza Vegatable", Description: "Grilled eggplant, grilled pumpkin, onion, tomato", Image:pizzaVegatable, Price: 135000},
+            {Type: "Pizza", Name: "Pizza Meat and mushroom", Description: "Minced meat, mushrooms, bell pepper", Image:pizzaMeatmushroom, Price: 185000},
+            {Type: "Pizza", Name: "Pizza Pepperoni", Description: "Meat ham, chicken ham, pepperoni, mushroom", Image:pizzaPepperoni, Price: 170000},
 
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
-        {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
-        
-        {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
-        {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
-        {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
-        {Type: "Fired", Name: "Fried Wings", Description: "Fried Wings, potatoes, bread slices", Image:FriedWings, Price: 145000},
+            {Type: "Burger", Name: "CheeseBurger", Description: "150 gram burger, Gouda cheese, tomato, lettuce", Image:burgerCheese, Price: 130000},
+            {Type: "Burger", Name: "Burger Classic", Description: "150 gram burger, tomato, pickled cucumber, lettuce", Image:burgerClassic, Price: 120000},
+            
+            {Type: "Fired", Name: "Fried Chicken (2 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 155000},
+            {Type: "Fired", Name: "Fried Chicken (3 pieces)", Description: "Fired chicken, potatoes, bread slices", Image:FriedChicken, Price: 195000},
+            {Type: "Fired", Name: "Fillet (4 pieces)", Description: "Fillet, potatoes, bread slices", Image:FriedFillet, Price: 180000},
 
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
-        {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaColaFamily, Price: 30000},
-        {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
-        {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
-    ],
+            {Type: "Drink", Name: "Coca Cola", Description: "", Image:cocaCola, Price: 19000},
+            {Type: "Drink", Name: "Coca Cola Family", Description: "", Image:cocaColaFamily, Price: 30000},
+            {Type: "Drink", Name: "Pepsi", Description: "", Image:pepsi, Price: 19000},
+            {Type: "Drink", Name: "Pepsi Family", Description: "", Image:pepsiFamily, Price: 30000},
+        ],
 
 },
         
