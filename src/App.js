@@ -20,7 +20,7 @@ function App() {
           <Router>
             <Nav />
             <Routes>
-              <Route path='/Online_Shop_V.1.0.0' element={<Main />} />
+              <Route path='/Online_Shop_V1' element={<Main />} />
               <Route path='/shop/:name' element={<Shop />} />
               <Route path='/search/:resultof' element={<Search />} />
             </Routes>

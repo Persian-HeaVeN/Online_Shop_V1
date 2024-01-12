@@ -42,7 +42,7 @@ export function Nav() {
                 </ul>
             </div>
             <div class="mx-auto order-0">
-                <a class="navbar-brand mx-auto hover-pointer" onClick={()=>{navigateTo("/Online_Shop_V.1.0.0")}}>
+                <a class="navbar-brand mx-auto hover-pointer" onClick={()=>{navigateTo("/Online_Shop_V1")}}>
                     Shapaz
                     <img src={logoImg} style={{width:"2rem", marginRight:"0.5rem", marginLeft:"0.5rem"}} />
                     Food

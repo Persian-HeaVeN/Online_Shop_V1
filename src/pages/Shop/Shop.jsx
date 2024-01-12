@@ -75,7 +75,7 @@ export function Shop() {
                             <img className="rounded-5" src={nowShop.Images.Icon} alt="shop icon" style={{width:"6rem", padding:"0.1rem"}} />
                         </figure>
                         <div className="top-right">
-                            <button onClick={()=>{navigateTo("/Online_Shop_V.1.0.0")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
+                            <button onClick={()=>{navigateTo("/Online_Shop_V1")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
                         </div>
                     </div>
 
@@ -159,7 +159,7 @@ export function Shop() {
                             <img className="rounded-5" src={nowShop.Images.Icon} alt="shop icon" style={{width:"8rem", padding:"0.1rem"}} />
                         </figure>
                         <div className="top-right">
-                            <button onClick={()=>{navigateTo("/Online_Shop_V.1.0.0")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
+                            <button onClick={()=>{navigateTo("/Online_Shop_V1")}} className="btn btn-outline-light" style={{width:"10rem", fontSize:"1.2rem"}}>Back to main</button>
                         </div>
                     </div>
 
