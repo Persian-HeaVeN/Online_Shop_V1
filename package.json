@@ -1,6 +1,6 @@
 {
-	"homepage": "http://persian-heaven.github.io/Online_Shop_V2",
-	"name": "online-shop-v2",
+	"homepage": "http://persian-heaven.github.io/Online_Shop_V1",
+	"name": "online-shop-v1",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
